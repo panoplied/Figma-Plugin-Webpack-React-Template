@@ -7,14 +7,20 @@ Webpack in this template actually works with React and inlines images into the b
 
 Don't forget to update your `manifest.json` to change the name and id of your plugin.
 
-Bundling set as usual in `package.json`.
+Bundling is set as usual in `package.json`.
 
-Dev build:
+First:
+```
+npm install
+```
+Then make your stuff and run webpack scripts.
+
+For dev build:
 ```
 npm run start
 ```
 
-Production build:
+For production build:
 ```
 npm run build
 ```
