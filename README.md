@@ -15,7 +15,7 @@ npm install
 ```
 Then make your stuff and run webpack scripts.
 
-For dev build:
+For dev build (doesn't track changes yet, for now you should build with the command every time):
 ```
 npm run start
 ```
