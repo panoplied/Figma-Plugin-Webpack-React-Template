@@ -1,27 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import './ui.css';
-
-import Logo from './images/logo.png';
-
-class App extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            apiVersion: ""
-        }
-    }
-    render() {
-        return(
-            <div>
-                <h2>UI Template</h2>
-                <img src={Logo} id="logo"/>
-                <p>API Version: <span id="apiVersion"></span></p>
-            </div>
-        );
-    }
-}
+import App from './components/app';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
